@@ -14,7 +14,7 @@ export function ContactSection() {
                         <span className="bg-gradient-to-r from-[#d85d3b] to-[#c54d2b] bg-clip-text text-transparent">Store</span>
                     </h2>
                     <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                        Come visit us at our store or get in touch for any mobile-related queries. We're here to help!
+                        Come visit us at our store or get in touch for any mobile-related queries. We&apos;re here to help!
                     </p>
                 </div>
 

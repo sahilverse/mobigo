@@ -52,8 +52,8 @@ export function AboutSection() {
                                 Excellence in Mobile Solutions
                             </h3>
                             <p className="text-lg text-gray-600 leading-relaxed ">
-                                At Mobigo International, we understand that your mobile device is more than just a phone - it's your
-                                connection to the world. That's why we offer comprehensive services to keep you connected with the
+                                At Mobigo International, we understand that your mobile device is more than just a phone - it&apos;s your
+                                connection to the world. That&apos;s why we offer comprehensive services to keep you connected with the
                                 latest technology and expert support.
                             </p>
                         </div>
