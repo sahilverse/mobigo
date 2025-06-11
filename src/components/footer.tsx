@@ -8,7 +8,7 @@ export function Footer() {
                 <div className="grid md:grid-cols-4 gap-8 mb-12 animate-fade-in-up">
                     <div className="md:col-span-2">
                         <div className="flex items-center space-x-3 mb-6 hover:scale-105 transition-transform duration-300">
-                            <div className="w-12 h-12 bg-gradient-to-br from-[#d85d3b] to-[#c54d2b] rounded-xl flex items-center justify-center hover:rotate-12 transition-transform duration-300">
+                            <div className="w-12 h-12 bg-gradient-to-br from-[#d85d3b] to-[#c54d2b] rounded-xl flex items-center justify-center transition-transform duration-300">
                                 <Smartphone className="w-7 h-7 text-white" />
                             </div>
                             <div>

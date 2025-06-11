@@ -87,7 +87,7 @@ export function ServicesSection() {
                             key={index}
                             className={`group bg-white p-8 rounded-3xl shadow-lg hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 border border-gray-100 animate-fade-in-up animation-delay-${(index + 1) * 100}`}
                         >
-                            <div className="w-16 h-16 bg-gradient-to-br from-[#d85d3b]/10 to-[#d85d3b]/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-gradient-to-br group-hover:from-[#d85d3b] group-hover:to-[#c54d2b] transition-all duration-300 hover:rotate-12">
+                            <div className="w-16 h-16 bg-gradient-to-br from-[#d85d3b]/10 to-[#d85d3b]/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-gradient-to-br group-hover:from-[#d85d3b] group-hover:to-[#c54d2b] transition-all duration-300">
                                 <service.icon className="w-8 h-8 text-[#d85d3b] group-hover:text-white transition-colors duration-300" />
                             </div>
                             <h3 className="text-xl font-bold text-gray-900 mb-4 font-poppins">{service.title}</h3>
@@ -119,7 +119,7 @@ export function ServicesSection() {
                                 key={index}
                                 className={`text-center group hover:scale-105 transition-transform duration-300 animate-fade-in-up animation-delay-${(index + 6) * 100}`}
                             >
-                                <div className="w-20 h-20 bg-gradient-to-br from-[#d85d3b]/10 to-[#d85d3b]/20 rounded-2xl flex items-center justify-center mx-auto mb-6 hover:rotate-12 transition-transform duration-300">
+                                <div className="w-20 h-20 bg-gradient-to-br from-[#d85d3b]/10 to-[#d85d3b]/20 rounded-2xl flex items-center justify-center mx-auto mb-6 transition-transform duration-300">
                                     <span className="text-3xl">{category.emoji}</span>
                                 </div>
                                 <h4 className="font-bold text-gray-900 text-lg mb-3 font-poppins">{category.title}</h4>

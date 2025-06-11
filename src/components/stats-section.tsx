@@ -20,7 +20,7 @@ export function StatsSection() {
                             key={index}
                             className={`text-center hover:scale-105 transition-transform duration-300 animate-fade-in-up animation-delay-${(index + 1) * 100}`}
                         >
-                            <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 backdrop-blur-sm hover:rotate-12 transition-transform duration-300">
+                            <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mx-auto mb-4 backdrop-blur-sm  transition-transform duration-300">
                                 <stat.icon className="w-8 h-8 text-white" />
                             </div>
                             <div className="text-3xl lg:text-4xl font-bold text-white mb-2 font-poppins">{stat.number}</div>

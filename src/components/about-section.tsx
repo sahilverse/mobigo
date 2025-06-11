@@ -64,7 +64,7 @@ export function AboutSection() {
                                     key={index}
                                     className={`flex items-start space-x-4 group hover:translate-x-2 transition-transform duration-300 animate-fade-in-up animation-delay-${(index + 3) * 100}`}
                                 >
-                                    <div className="w-12 h-12 bg-gradient-to-br from-[#d85d3b] to-[#c54d2b] rounded-xl flex items-center justify-center flex-shrink-0 hover:rotate-12 transition-transform duration-300">
+                                    <div className="w-12 h-12 bg-gradient-to-br from-[#d85d3b] to-[#c54d2b] rounded-xl flex items-center justify-center flex-shrink-0 transition-transform duration-300">
                                         <feature.icon className="w-6 h-6 text-white" />
                                     </div>
                                     <div>

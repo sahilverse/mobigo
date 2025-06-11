@@ -25,7 +25,7 @@ export function ContactSection() {
 
                             <div className="space-y-6">
                                 <div className="flex items-start space-x-4 group hover:translate-x-2 transition-transform duration-300">
-                                    <div className="w-14 h-14 bg-gradient-to-br from-[#d85d3b] to-[#c54d2b] rounded-2xl flex items-center justify-center hover:rotate-12 transition-transform duration-300">
+                                    <div className="w-14 h-14 bg-gradient-to-br from-[#d85d3b] to-[#c54d2b] rounded-2xl flex items-center justify-center transition-transform duration-300">
                                         <Phone className="w-7 h-7 text-white" />
                                     </div>
                                     <div>
@@ -46,7 +46,7 @@ export function ContactSection() {
                                 </div>
 
                                 <div className="flex items-start space-x-4 group hover:translate-x-2 transition-transform duration-300">
-                                    <div className="w-14 h-14 bg-gradient-to-br from-[#d85d3b] to-[#c54d2b] rounded-2xl flex items-center justify-center hover:rotate-12 transition-transform duration-300">
+                                    <div className="w-14 h-14 bg-gradient-to-br from-[#d85d3b] to-[#c54d2b] rounded-2xl flex items-center justify-center transition-transform duration-300">
                                         <MapPin className="w-7 h-7 text-white" />
                                     </div>
                                     <div>
@@ -57,7 +57,7 @@ export function ContactSection() {
                                 </div>
 
                                 <div className="flex items-start space-x-4 group hover:translate-x-2 transition-transform duration-300">
-                                    <div className="w-14 h-14 bg-gradient-to-br from-[#d85d3b] to-[#c54d2b] rounded-2xl flex items-center justify-center hover:rotate-12 transition-transform duration-300">
+                                    <div className="w-14 h-14 bg-gradient-to-br from-[#d85d3b] to-[#c54d2b] rounded-2xl flex items-center justify-center  transition-transform duration-300">
                                         <Clock className="w-7 h-7 text-white" />
                                     </div>
                                     <div>
