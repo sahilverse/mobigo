@@ -3,6 +3,8 @@ import type { Metadata, Viewport } from "next"
 import { Inter, Poppins } from "next/font/google"
 import "./globals.css"
 
+import { Analytics } from '@vercel/analytics/next';
+
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -102,7 +104,9 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${inter.className} ${poppins.variable} antialiased`} suppressHydrationWarning>{children}</body>
+      <body className={`${inter.className} ${poppins.variable} antialiased`} suppressHydrationWarning>{children}
+        <Analytics />
+      </body>
     </html>
   )
 }
