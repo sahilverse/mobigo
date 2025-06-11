@@ -58,7 +58,7 @@ export function Navigation({ activeSection, scrollY, onSectionClick }: Navigatio
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 onClick={() => handleSectionClick(section)}
-                                className={`relative capitalize font-medium transition-all duration-300 py-2 px-4 rounded-lg ${activeSection === section
+                                className={`relative capitalize font-medium transition-all duration-300 py-2 px-4 cursor-pointer rounded-lg ${activeSection === section
                                     ? "text-[#d85d3b] bg-[#d85d3b]/10"
                                     : "text-gray-600 hover:text-[#d85d3b] hover:bg-gray-50"
                                     }`}

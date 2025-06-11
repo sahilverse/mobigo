@@ -113,7 +113,7 @@ export function HeroSection({ scrollY, onSectionClick }: HeroSectionProps) {
                                 whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(216, 93, 59, 0.3)" }}
                                 whileTap={{ scale: 0.95 }}
                                 onClick={() => onSectionClick("services")}
-                                className="group bg-gradient-to-r from-[#d85d3b] to-[#c54d2b] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold transition-all duration-300 flex items-center justify-center space-x-2 text-sm sm:text-base"
+                                className="group bg-gradient-to-r from-[#d85d3b] to-[#c54d2b] text-white px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold transition-all duration-300 flex items-center cursor-pointer justify-center space-x-2 text-sm sm:text-base"
                             >
                                 <span>Explore Services</span>
                                 <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform duration-300" />
@@ -123,14 +123,14 @@ export function HeroSection({ scrollY, onSectionClick }: HeroSectionProps) {
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 onClick={() => onSectionClick("contact")}
-                                className="group border-2 border-[#d85d3b] text-[#d85d3b] px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold hover:bg-[#d85d3b] hover:text-white transition-all duration-300 flex items-center justify-center space-x-2 text-sm sm:text-base"
+                                className="group border-2 border-[#d85d3b] text-[#d85d3b] px-6 sm:px-8 py-3 sm:py-4 rounded-2xl font-semibold hover:bg-[#d85d3b] hover:text-white transition-all duration-300 cursor-pointer flex items-center justify-center space-x-2 text-sm sm:text-base"
                             >
                                 <Phone className="w-4 h-4 sm:w-5 sm:h-5" />
                                 <span>Contact Us</span>
                             </motion.button>
                         </motion.div>
 
-                        <motion.div variants={itemVariants} className="grid grid-cols-2 gap-6 pt-8">
+                        <motion.div variants={itemVariants} className="grid grid-cols-2 gap-6 pt-8 cursor-pointer">
                             <motion.div whileHover={{ scale: 1.05 }} className="flex items-center space-x-3">
                                 <div className="w-12 h-12 bg-[#d85d3b]/10 rounded-xl flex items-center justify-center">
                                     <Phone className="w-6 h-6 text-[#d85d3b]" />
